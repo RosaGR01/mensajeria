@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>chat</title>
+</head>
+<body>
+<main>
+    <section class="chat">
+        <div class="titulo">
+            <h3>
+                <i class=" fas fa-comments"></i>
+                Mensajeria utilizando el Patron observador
+            </h3>
+        </div>
+        <div class="seccion-usuarios">
+            <div class="seccion-lista-usuario">
+
+                <div class="usuario">
+                    <div class="avatar">
+                        <img src="https://th.bing.com/th/id/OIP.HMPa8NSZAEl5wIVCQi94jAHaHa?pid=ImgDet&rs=1" alt="img">
+                        <span class="estado-usuario enlinea"></span>
+                    </div>
+                    <div class="cuerpo">
+                        <span>Fatima Peréz</span>
+                        <span>detalles del mensaje</span>
+                    </div>
+                    <span class="notificar" id="notificar">1</span>
+                </div>
+
+                <div class="usuario">
+                    <div class="avatar">
+                        <img src="https://th.bing.com/th/id/OIP.HMPa8NSZAEl5wIVCQi94jAHaHa?pid=ImgDet&rs=1" alt="img">
+                        <span class="estado-usuario enlinea"></span>
+                    </div>
+                    <div class="cuerpo">
+                        <span>Fatima Peréz</span>
+                        <span>detalles del mensaje</span>
+                    </div>
+                    <span class="notificar" id="notificar2">1</span>
+                </div>
+                <div class="usuario">
+                    <div class="avatar">
+                        <img src="https://th.bing.com/th/id/OIP.HMPa8NSZAEl5wIVCQi94jAHaHa?pid=ImgDet&rs=1" alt="img">
+                        <span class="estado-usuario enlinea"></span>
+                    </div>
+                    <div class="cuerpo">
+                        <span>Fatima Peréz</span>
+                        <span>detalles del mensaje</span>
+                    </div>
+                    <span class="notificar" id="notificar3">1</span>
+                </div>
+                <div class="usuario">
+                    <div class="avatar">
+                        <img src="https://th.bing.com/th/id/OIP.HMPa8NSZAEl5wIVCQi94jAHaHa?pid=ImgDet&rs=1" alt="img">
+                        <span class="estado-usuario enlinea"></span>
+                    </div>
+                    <div class="cuerpo">
+                        <span>Fatima Peréz</span>
+                        <span>detalles del mensaje</span>
+                    </div>
+                    <span class="notificar" id="notificar4">1</span>
+                </div>
+            </div>
+        </div>
+        <div class="seccion-chat">
+            <div class="usuario-seleccionado">
+                <div class="avatar">
+                    <img src="https://i.pinimg.com/originals/d2/4d/72/d24d72076588a297bd15c98d803234e6.jpg" alt="img">
+                </div>
+                <div class="cuerpo">
+                    <span>Nombre de usuario</span>
+                    <span>Activo </span>
+                </div>
+                <div class="opciones">
+                    <ul>
+                        <li>
+                            <button type="button"><i class="fas fa-video"></i></button>
+                        </li>
+                        <li>
+                            <button type="button"><i class="fas fa-phone-alt"></i></button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="panel-chat">
+                <div class="mensaje">
+                    <div class="avatar">
+                        <img src="https://th.bing.com/th/id/OIP.PQKELB8TEAIzfgVq6taY-QHaHa?pid=ImgDet&w=736&h=736&rs=1" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="panel-escritura">
+                <form action="" class="textarea">
+                    <textarea name="mensaje" id="mensaje"placeholder="Escribir mensaje"></textarea>
+                    <button type="button" class="enviar" id="button">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+<script src="scrip.js"></script>
+</body>
+</html>
